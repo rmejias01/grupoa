@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Volver a la p&aacute;gina Pricipal</a><br><br>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Formularios</h1>
+            <!--etiquetas formularios-->
+        <form action="./altadepersonas.html"
+            action="GET">
+            <!--enviar un valor pero sin mostar al usuario-->
+            <input type="hidden"
+                name="id"
+                value="1234"> 
+            <label for="txtNombre">
+                Nombre:
+            </label>
+            <input id="txtNombre"
+                name="Nombre"
+                required
+                type="text" 
+                placeholder="Ingrese su nombre">
+            <br>
+            <label for="txtEdad">
+               Edad:
+            </label>
+            <input id="txtEdad"
+                name="Edad"
+                required
+                type="number" 
+                placeholder="Ingrese su edad"
+                min="0"
+                max="120">
+
+            <label for="FechaNacimiento">Fech Nac</label>
+            <input type="date" 
+                name="Edad"
+                required 
+                id="">
+            <br><br>
+            <label for="genero">Genero</label>
+            <br><br>
+            Masculino
+            <input type="radio" 
+                name="genero"
+                value="M"
+                required>
+            Femenino
+            <input type="radio" 
+                name="genero"
+                value="F"
+                required>
+            No binario
+            <input type="radio" 
+                name="genero"
+                value="nb"
+                required>
+                <br><br>
+                <label>
+                   Peliculas Favoritas
+                </label>
+                <br>
+                <br>
+                Acci&oacute;n:
+                <input name="accion"
+                    type="checkbox"
+                    value="acc">
+                Terror: 
+                <input name="terror" 
+                    type="checkbox" 
+                    value="terror">
+                Comedia: 
+                <input name="comedia" 
+                    type="checkbox" 
+                    value="comedia">
+                <br>
+
+                <label>Foto Perfil</label>
+                <input type="file">
+                <br>    
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+        </section>
+        <section>
+            <h1>
+                Buscador
+            </h1>
+            <form action="">
+                <label for="buscador">Clave</label>
+                <input type="search" name="" id="">
+                <br>
+                
+            </form>
+        </section>
+    </main>
+</body>
+</html>
