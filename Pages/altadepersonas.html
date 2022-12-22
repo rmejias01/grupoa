@@ -14,8 +14,79 @@
         <h1>
             Alta de Personas
         </h1>
-        <p>Para registrarse debe completar el formulario haciendo clic:</p>
-        <a href="./formularios.html">AQUÍ</a>
+        
+        
+        <main>
+            <section>
+               
+            <form action="./altadepersonas.html"
+                action="GET">
+                <!--enviar un valor pero sin mostar al usuario-->
+                <input type="hidden"
+                    name="id"
+                    value="1234"> 
+                <label for="txtNombre">
+                    Nombre:
+                </label>
+                <input id="txtNombre"
+                    name="Nombre"
+                    required
+                    type="text" 
+                    placeholder="Ingrese su nombre">
+                <br><br>
+                <input type="hidden"
+                name="id"
+                value="1234"> 
+            <label for="txtapellido">
+                Apellido:
+            </label>
+            <input id="txtapellido"
+                name="apellido"
+                required
+                type="text" 
+                placeholder="Ingrese su apellido">
+            <br><br>
+                <label for="txtEdad">
+                   Edad:
+                </label>
+                <input id="txtEdad"
+                    name="Edad"
+                    required
+                    type="number" 
+                    placeholder="Ingrese su edad"
+                    min="0"
+                    max="120">
+                    <br><br>
+                <label for="FechaNacimiento">Fech Nac</label>
+                <input type="date" 
+                    name="FN"
+                    required 
+                    id="">
+                <br><br>
+                <label for="genero"><b>Genero:</b></label>
+               
+                Masculino
+                <input type="radio" 
+                    name="genero"
+                    value="M"
+                    required>
+                Femenino
+                <input type="radio" 
+                    name="genero"
+                    value="F"
+                    required>
+                No binario
+                <input type="radio" 
+                    name="genero"
+                    value="nb"
+                    required>
+                    <br><br>
+                    <button type="submit">
+                        Enviar
+                    </button>
+                </form>    
+            </section>
+            <p><a href="./formularios.html">Ir a Formularios</a></p>
     </header>
     
 </body>
