@@ -6,13 +6,42 @@
 
 <!--NO SE VE -->
 <head>
+    <link rel="stylesheet" href="./styles.css">
      <title>Bootcamp Comafi- HTML</title>
+     <style>
+        /* OJO: esto es css, NO html */
+        /*estilo de etiqueta */
+        header {
+            /*vamos a poner los estilos que afectan a la etiqueta header*/
+            background-color: black;
+            color:white;
+        }
+        /*el elemento p que esta dentro de header*/
+
+        /*regla*/
+        header p {
+            /*atributo: valor*/
+            color: yellow;
+            /*bloque de declaración*/
+        }
+        header h1{
+            color: green !important;
+        }
+        
+    </style>
+    
 </head>
 <!--LO QUE SE VE -->
 <body>
 <!--Etiquetas semanticas -->
 <header>
-   <h1>Mundial Qatar 2022</h1> 
+   <h1 style="color:red;font-size: 50px;font-weight: normal;">Mundial Qatar 2022</h1> 
+   <p>
+    Soy un párrafo
+   </p>
+   <p id="segundo_parrafo">
+    Soy el segundo párrafo
+   </p>
 </header>
 <nav>
     <!--Menu del sitio-->
@@ -59,6 +88,12 @@
         </section>
         <section>
             <h2>Jugadoress</h2> 
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem veritatis, iste blanditiis quia labore at excepturi nostrum aperiam animi deleniti necessitatibus! Cupiditate eos dolores voluptatum exercitationem debitis modi quae vero.
+            </p>
+        </section>
+        <section id="secArbitros">
+            <h2>Arbitros</h2> 
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem veritatis, iste blanditiis quia labore at excepturi nostrum aperiam animi deleniti necessitatibus! Cupiditate eos dolores voluptatum exercitationem debitis modi quae vero.
             </p>
