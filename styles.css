@@ -1,0 +1,32 @@
+/* 
+
+Todo es ccs 
+
+*/
+/*
+.nombreDeLaClase{
+    atributo: Valor
+    atributo2: valor
+    atrx: valorx
+}
+*/
+/* Afecta todas las section */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+section{
+    background-color: beige;
+}
+
+#secArbitros{
+    /*background-color: blue;*/
+    /*background-color: #af1896;*/
+    background-color: rgb(10, 247, 175,0.2);
+    color:white ;
+    font-size: 18px ; /*Fijos= px | relativos    */
+    font-weight: 300;
+    /*font-family: Courier, monospace;*/
+    font-style: inherit;
+    font-family: 'Ubuntu', sans-serif;
+}

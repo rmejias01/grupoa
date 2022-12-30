@@ -1,0 +1,80 @@
+/* Selector universal*/
+
+
+/* Regla por selector*/
+h2{
+    color: brown !important;
+}
+
+/* Regla de ID*/
+#mih2
+{
+    color: red;
+}
+/* Regla de Clase */
+
+.mih2Clase
+{
+    color:green;
+}
+
+.cajaExterna{
+    margin: 5px 10px;
+    border: 2px solid red;
+    padding: 25px;
+    background-color: aqua;
+    width: 200px;
+    box-sizing: border-box; /*Content box | */
+}
+
+.cajaInterna{
+    margin: 10px 5px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(212, 255, 0);
+}
+
+.cajaExterna .cajaInterna{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.caja{
+    background-color: red;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.container{
+    margin-left: 15px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+.rojo{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul{
+    background-color:blue;
+}   
+.blanco{
+    background-color:white;
+}   
+
+.circulo {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.otro {
+    border-radius: 50% 10% 5% 15%;
+    text-align: center;
+}
